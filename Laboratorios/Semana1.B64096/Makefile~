@@ -1,0 +1,7 @@
+#Makefile para compilar
+Compilar: semaforo.o pruebaSem.o
+	gcc -o lab1 semaforo.o pruebaSem.o
+semaforo.o: semaforo.cc semaforo.h
+	gcc -c semaforo.cc
+pruebaSem.o: pruebaSem.cc semaforo.h
+	gcc -c pruebaSem.cc
