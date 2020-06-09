@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1591742389 source:/home/dayana/Música/Examen1Hilos/main.cpp
+	<iostream>
+	<ctime>
+	<pthread.h>
+	"Numeros.h"
+	"Mutex.h"
+	<stdio.h>
+	<stdlib.h>
+
+1591734015 source:/home/dayana/Música/Examen1Hilos/src/Numeros.cpp
+	"Numeros.h"
+	<math.h>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+
+1591742412 /home/dayana/Música/Examen1Hilos/include/Numeros.h
+	<vector>
+
+1591734161 source:/home/dayana/Música/Examen1Hilos/src/Mutex.cpp
+	<stdlib.h>
+	<pthread.h>
+	"Mutex.h"
+
+1591734161 /home/dayana/Música/Examen1Hilos/include/Mutex.h
+	<pthread.h>
+
